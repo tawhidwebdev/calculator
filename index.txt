@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="calculatorBody">
+    <table>
+      <tr>
+        <td><input type="text" id="MyRuselt"></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="C" onclick="Delete()"></td>
+        <td><input type="button" value="(" onclick="calculator()"></td>
+        <td><input type="button" value=")" onclick="calculator()"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7" onclick="calculator()"></td>
+        <td><input type="button" value="8" onclick="calculator()"></td>
+        <td><input type="button" value="9" onclick="calculator()"></td>
+        <td><input type="button" value="+" onclick="calculator()"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value=""></td>
+      </tr>
+    </table>
+  </div>
+  <script src="./css/style.css"></script>
+</body>
+</html>
